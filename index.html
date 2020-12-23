@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>WebDev</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Test Work</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#About me">About me<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Task №2">Task №2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#My contact">My contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="jumbotron jumbotron-fluid alert-primary" id="About me">
+    <div class="jumb_content">
+        <div class="container">
+            <h1 class="display-4">Hello, I'm Vlad Gavrilov</h1>
+            <p class="lead">I'm web developer, and just good guy =)</p>
+        </div>
+    </div>
+</div>
+<span class="info_about_me">
+    <div class="image_panel">
+        <img src="photo_2020-12-14_02-18-55.jpg" class="img-thumbnail my_pictures">
+         <div class="container">
+        <H3 class="head_text">Information about myself</H3>
+        <p class="paragraph">I'm live in Kharkiv. Now I'm studying at NTU "KhPI" at the Faculty of Computer Science and Software Engineering. I love math and other exact sciences. One of my hobbies that bring me extra income is teaching mathematics to schoolchildren in grades 10-11. I started my acquaintance with programming with C++. One of the first difficult and serious projects is writing a hint for scanwords. This work was my first term paper. One of my goals is to become a Front end developer. Develop and subsequently become a fullstack JS developer.</p>
+    </div>
+    </div>
+</span>
+
+<div class="jumbotron jumbotron-fluid alert-primary second" id="Task №2">
+    <div class="jumb_content">
+        <div class="container">
+            <h1 class="display-4">This my Schedule</h1>
+            <p class="lead">from second task of test</p>
+        </div>
+    </div>
+</div>
+
+<span  class="schedule">
+<div class="charts">
+    <ul class="numbers" data-content="number_of_charts_Oy">
+
+    </ul>
+    <ul class="bars" data-content="number_of_charts_Ox">
+
+    </ul>
+</div>
+</span>
+<div class="jumbotron jumbotron-fluid alert-primary second" id="My contact">
+    <div class="jumb_content">
+        <div class="container">
+            <h1 class="display-4">Let's work together...</h1>
+            <p class="lead">My contact</p>
+            <p class="lead">phone: +380974807584, +380995731757</p>
+            <p class="lead">email: vladgavilov2000@gmail.com</p>
+        </div>
+    </div>
+</div>
+<script type="application/javascript" src="chartBar.js"></script>
+</body>
+</html>

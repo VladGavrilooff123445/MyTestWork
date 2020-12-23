@@ -1,0 +1,160 @@
+.jumb_content{
+    margin: auto;
+}
+.image_panel{
+    display: flex;
+    flex-direction: row;
+}
+
+.my_pictures{
+    max-height: 400px;
+    max-width: 500px;
+    margin: auto;
+}
+.container{
+    max-width: 500px;
+    max-height: 500px;
+}
+.head_text{
+    display: flex;
+    justify-content: center;
+
+}
+.paragraph{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.second{
+    margin-top: 20px
+}
+
+.schedule{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    min-height: 500px;
+}
+
+.charts{
+    width: 600px;
+    height: 300px;
+    display: block;
+}
+
+.numbers{
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.numbers li{
+    list-style: none;
+    height: 20px;
+    position: relative;
+    bottom: 0;
+}
+
+.numbers span{
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.bars{
+    font-size: 12px;
+    font-weight: 600;
+    background: #999;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    border-shadow: 0 0 10px 0 #999;
+    border-radius: 5px;
+}
+
+.bars li {
+    display: table-cell;
+    width: 100px;
+    height: 300px;
+    position: relative;
+}
+
+.bars span{
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+    
+}
+
+
+.bars .bar_green{
+    display: block;
+    width: 10px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 8px;
+    text-align: center;
+    transition: 0.5s;
+    transition-property: background, box-shadow;
+    background: #9AEA27;
+    box-shadow: 0 0 5px 0 rgba(154, 234, 39, 0.5);
+}
+
+.bars .bar_yellow{
+    display: block;
+    width: 10px;
+
+    position: absolute;
+    bottom: 0;
+    margin-left: 8px;
+    text-align: center;
+    transition: 0.5s;
+    transition-property: background, box-shadow;
+    background: #EFE510;
+    box-shadow: 0 0 5px 0 rgba(239, 229, 16, 0.5);
+}
+
+.bars .bar_red{
+    display: block;
+    width: 10px;
+
+    position: absolute;
+    bottom: 0;
+    margin-left: 8px;
+    text-align: center;
+    transition: 0.5s;
+    transition-property: background, box-shadow;
+    background: #EF3A10;
+    box-shadow: 0 0 5px 0 rgba(239, 58, 16, 0.5);
+}
+
+.bars .bar_green:hover{
+    background: #53FE06 ;
+    box-shadow: 0 0 5px 0 rgba(83, 254, 6 , 0.5);
+    cursor: pointer;
+}
+.bars .bar_yellow:hover{
+    background: #FAFE06;
+    box-shadow: 0 0 5px 0 rgba(250, 254, 6, 0.5);
+    cursor: pointer;
+}
+.bars .bar_red:hover{
+    background: #FF6734;
+    box-shadow: 0 0 5px 0 rgba(255, 103, 52, 0.5);
+    cursor: pointer;
+}
